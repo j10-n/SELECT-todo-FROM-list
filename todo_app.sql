@@ -1,7 +1,6 @@
 DROP DATABASE IF EXISTS todo_app;
 DROP USER IF EXISTS michael;
 DROP TABLE IF EXISTS tasks;
-
 CREATE USER michael WITH PASSWORD 'stonebreaker';
 CREATE DATABASE todo_app;
 \c todo_app;
